@@ -7,7 +7,7 @@ public class Main {
         System.out.println(homeWork + " " + NUM + " " + world);
         if (NUM < 0 ) {
             System.out.println("Вы сохронили отрицательное число");
-        } if (NUM > 0){
+        } else if (NUM > 0) {
             System.out.println("Вы сохронили положительное число");
         }else {
             System.out.println("Вы сохронили 0");
